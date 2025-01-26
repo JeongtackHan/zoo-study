@@ -54,6 +54,11 @@
     border-radius: 32px;
 }
 
+.card-group:nth-of-type(2n-1) {
+    padding-top: 32px;
+
+}
+
 #menu {
     display: flex;
     justify-content: center;
@@ -62,8 +67,27 @@
 
 #content {
     display: flex;
-    gap: 10px;
+    gap: 45px;
     justify-content: center;
     background-image: url("/images/bg.png");
     color: white;
+
+
+}
+
+
+.card {
+    max-width: 300px;
+}
+
+.card div {
+    background: #985e30;
+    border-radius: 24px;
+    overflow: hidden;
+
+}
+
+.card>div>h3,
+.card>div>p {
+    padding: 11px;
 }
